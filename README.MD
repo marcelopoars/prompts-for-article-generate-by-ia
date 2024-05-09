@@ -11,16 +11,15 @@
 </p>
 
 <br>
-<br>
 
 # Projeto artigo técnico gerado por I.A.s
 
-<p align="center">
+<!-- <p align="center">
   <img 
     src=".github/assets/preview.png"
     width="auto"  
   />
-</p>
+</p> -->
 
 <br>
 
@@ -38,13 +37,35 @@ Projeto com o objetivo de gerar um artigo técnico com um layout rico, leitura a
 ## 📄 Prompts e ferramentas
 
 
-ChatGPT：
+**ChatGPT：**
 
-| Ação              | prompt                                                                                                                                                                                                                                                                                                                               |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Título   | Crie 10 variações de títulos para um artigo sobre o assunto HTML Semântico e boas práticas |
-| Conteúdo | Crie um texto para ebook sobre "CSS Felxbox", explicando de forma simples seus principais seletores. Explique sempre de maneira simples. Escreva um texto enxuto e resumido. Sempre traga exemplos em pequenos trechos de código. Crie um título para cada tópico.                                                                   |
-|                   |
+Título:
+
+```cmd
+Crie 10 variações de títulos para um artigo sobre o assunto HTML Semantico e boas práticas
+```
+
+Blocos de conteúdo:
+
+```bash
+Comporte-se como um produtor de conteúdos especialista em desenvolvimento front-end.
+Escreva um artigo sobre HTML Semântico e boas práticas de marcação html respeitando as regras abaixo.
+
+{REGRAS}
+> Cada parágrafo deve ter no máximo de 5 linhas
+> Explique de uma maneira simples
+> O público alvo do artigo são desenvolvedores iniciantes e estudantes
+> Os blocos que serão criados estão abaixo
+> Crie um subtítulo para cada bloco
+- Introdução ao HTML Semântico
+- A importância do HTML
+- O que mudou com a chegado do HTML5?
+- Principais TAGs Html5
+ - Cite exemplos de código html para cada tag
+- Conclusão
+- Ao final do artigo adicione 3 hashtags relacionadas com o tema do artigo
+```
+
 
 
 ## ✨ Features
